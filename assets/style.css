@@ -52,12 +52,12 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 	top: calc(50% - 32px);
+	z-index: 999;
 	left: 50%;
 	width: 900px;
 	height: 500px;
 	font-size: 16px;
 	line-height: 500px;
-	z-index: 999;
 	overflow: hidden;
 	text-align: center;
 	border-radius: 2px;
@@ -169,6 +169,7 @@ a:hover {
 		left: 8px;
 		bottom: 8px;
 		font-size: 10px;
+		max-width: 50%;
 	}
 
 	#actions {
